@@ -19,4 +19,4 @@ jobs:
       - name: Print Bye
         run: | 
           echo "bye"
-          echo "good bye"
+          echo "${{ github.repository }}"
