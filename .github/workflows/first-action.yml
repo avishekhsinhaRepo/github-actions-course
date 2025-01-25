@@ -18,5 +18,5 @@ jobs:
         run: echo "hello World"
       - name: Print Bye
         run: | 
-          echo "${{ toJSON(github) }}"
+          echo "${{ github.actor }}"
           echo "${{ github.repository }}"
